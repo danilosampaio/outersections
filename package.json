@@ -1,0 +1,37 @@
+{
+  "name": "outersections",
+  "version": "0.0.0",
+  "description": "It Calculates “Outersections” of ranges.",
+  "license": "MIT",
+  "repository": "danilosampaio/outersections",
+  "author": {
+    "name": "Danilo Sampaio",
+    "email": "danilo.sampaio@gmail.com",
+    "url": "github.com/danilosampaio"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
