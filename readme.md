@@ -32,6 +32,17 @@ let ranges = [
 outersections(ranges);
 //=> [{ begin: Date(2017, 0, 10), end: Date(2017, 0, 20) }]
 
+
+const ranges = [
+	{begin: 1, end: 10},
+	{begin: 20, end: 30},
+	{begin: 1, end: 7},
+	{begin: 25, end: 35}
+];
+
+outersections(ranges);
+//=> [{begin: 10, end: 20}]
+
 ```
 
 
