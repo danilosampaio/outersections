@@ -2,9 +2,6 @@ import test from 'ava';
 import outersections from '.';
 
 test('should treat correctly empty ranges', t => {
-	const err = t.throws(() => outersections(123), TypeError);
-	t.is(err.message, 'Expected a array of ranges, got number');
-
 	t.deepEqual(outersections([]), []);
 });
 
@@ -14,9 +11,6 @@ test('should treat correctly invalid ranges', t => {
 });
 
 test('should calculate outersections number intervals', t => {
-	const err = t.throws(() => outersections(123), TypeError);
-	t.is(err.message, 'Expected a array of ranges, got number');
-
 	var ranges = [
 		{begin: 1, end: 10},
 		{begin: 20, end: 30},
@@ -39,9 +33,6 @@ test('should calculate outersections number intervals', t => {
 });
 
 test('should calculate outersections date intervals', t => {
-	const err = t.throws(() => outersections(123), TypeError);
-	t.is(err.message, 'Expected a array of ranges, got number');
-
 	var ranges = [
 		{begin: new Date(2017, 0, 1), end: new Date(2017, 0, 10)},
 		{begin: new Date(2017, 0, 20), end: new Date(2017, 0, 30)},
