@@ -8,7 +8,7 @@ Given a list of ranges:
 
 it calculates the "Outersection" intervals (Hatched area, with no intersections between the A,B,C date ranges).
 
-[Stackoverflow discution](http://stackoverflow.com/questions/43592891/how-to-calculate-outersections-from-sets-of-date-range)
+[Stackoverflow discussion](http://stackoverflow.com/questions/43592891/how-to-calculate-outersections-from-sets-of-date-range)
 
 ## Install
 
