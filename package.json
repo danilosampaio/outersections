@@ -1,6 +1,6 @@
 {
   "name": "outersections",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "It Calculates “Outersections” of ranges.",
   "license": "MIT",
   "repository": "danilosampaio/outersections",
