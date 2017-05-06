@@ -1,6 +1,6 @@
 {
   "name": "outersections",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "It Calculates “Outersections” of ranges.",
   "license": "MIT",
   "repository": "danilosampaio/outersections",
@@ -19,7 +19,9 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "outersections",
+    "ranges",
+    "intersections"
   ],
   "dependencies": {},
   "devDependencies": {
